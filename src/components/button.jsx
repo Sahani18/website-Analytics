@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { trackClickEvent } from "../analytics/googleAnalytics";
 
-function Button({ catagory, label }) {
+function Button({ category, label }) {
   const [count, setCount] = useState(0);
   const handleChange = () => {
     setCount((count) => count + 1);
-    trackClickEvent(catagory, label);
+    trackClickEvent(category, label);
   };
   return (
     <>

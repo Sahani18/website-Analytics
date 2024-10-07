@@ -17,7 +17,7 @@ function App() {
       <br/>
       <Link to={"/home"} className=' bg-yellow-200 rounded-full p-2'> Home Page</Link>
       <div className='h-32'/>
-      <Button catagory="User Interaction" label="Click" />
+      <Button category="User Interaction" label="Click" />
         </>
   )
 }
