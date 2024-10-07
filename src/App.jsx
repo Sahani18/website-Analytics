@@ -16,7 +16,7 @@ function App() {
         Home Page
       </Link>
       <div className="h-32" />
-      <Button category="User Interaction" label="Click" />
+      <Button category="User Interaction" label="click" />
     </>
   );
 }
